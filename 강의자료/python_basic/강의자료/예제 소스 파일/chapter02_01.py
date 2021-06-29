@@ -1,4 +1,4 @@
-# Chapter02-1
+             # Chapter02-1
 # 파이썬 완전 기초
 # Print 사용법
 # 참조 : https://www.python-course.eu/python3_formatted_output.php
