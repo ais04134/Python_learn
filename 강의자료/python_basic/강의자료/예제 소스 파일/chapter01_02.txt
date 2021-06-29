@@ -1,0 +1,35 @@
+Mac OS 환경 
+
+1. 파이썬 설치 참고
+
+- https://dejavuqa.tistory.com/60
+- https://blockdmask.tistory.com/341
+- https://eunguru.tistory.com/28
+
+
+2. Atom Editor & 파이썬 연동 참고
+
+- https://ddolbah.tistory.com/5
+- https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/desc/atom_macos.md
+
+  (파이썬 선택 실행)
+- https://stackoverflow.com/questions/35546627/how-to-configure-atom-to-run-python3-scripts
+
+3. 터미널 등록
+
+- https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x
+
+4. 한글 깨짐
+
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
+
+5. 콘솔 폰트 사이즈
+
+.script-view .line {
+	font-size: 16px;
+}
+
