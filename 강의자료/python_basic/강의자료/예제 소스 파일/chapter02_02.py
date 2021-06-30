@@ -15,12 +15,12 @@ x = y = z = 700
 # 출력
 print(x, y ,z)
 
-#선언
+# 선언
 var = 75
 
 # 출력
 print(var)
-print(type(var)
+print(type(var))
 
 # 재 선언
 var = "Change Value"
