@@ -7,17 +7,17 @@
 #     <loop body>
 
 for v1 in range(10):
-    print("v1 is :", v2)
+    print("v1 is :", v1)
 
 print()
 
 for v2 in range(1, 11):
-    print("v2 is :", v3)
+    print("v2 is :", v2)
 
 print()
 
 for v3 in range(1, 11, 2):
-    print("v3 is :", v4)
+    print("v3 is :", v3)
 
 print()
 
