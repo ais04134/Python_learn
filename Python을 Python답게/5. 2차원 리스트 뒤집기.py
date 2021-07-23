@@ -16,14 +16,16 @@ mylist의 길이는 mylist[0]의 길이와 같습니다.
 '''
 
 
-mylist = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-new_list = [[], [], []]
-
-for i in range(len(mylist)):
-    for j in range(len(mylist[i])):
-        new_list[i].append(mylist[j][i])
-
-
-
 # mylist = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-# new_list = list(map(list, zip(*mylist)))
+# new_list = [[], [], []]
+#
+# for i in range(len(mylist)):
+#     for j in range(len(mylist[i])):
+#         new_list[i].append(mylist[j][i])
+
+
+
+mylist = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+new_list = list(map(list, zip(*mylist))) # 이거 이해 안됨
+
+print(new_list)
